@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <algolia-id>ERUSDW4898</algolia-id>
+        <algolia-index>index</algolia-index>
+        <algolia-api-key>c8a4c35ccfcebbaa929dc7e6dba71a93</algolia-api-key>
+        <web-root>https://barsiar.github.io</web-root>
+    </variables>
+
+    <build-profile instance="t">
+        <variables>
+            <algolia-id>ERUSDW4898</algolia-id>
+            <algolia-index>index</algolia-index>
+            <algolia-api-key>c8a4c35ccfcebbaa929dc7e6dba71a93</algolia-api-key>
+            <web-root>https://barsiar.github.io</web-root>
+        </variables>
+    </build-profile>
+
+</buildprofiles>

@@ -6,7 +6,5 @@
                  name="test"
                  start-page="starter-topic.md">
 
-    <toc-element topic="한글.md"/>
-    <toc-element topic="한글한글.topic"/>
     <toc-element topic="starter-topic.md"/>
 </instance-profile>
