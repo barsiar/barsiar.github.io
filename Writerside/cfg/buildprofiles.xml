@@ -4,18 +4,9 @@
 
     <variables>
         <algolia-id>ERUSDW4898</algolia-id>
-        <algolia-index>index</algolia-index>
+        <algolia-index>test</algolia-index>
         <algolia-api-key>c8a4c35ccfcebbaa929dc7e6dba71a93</algolia-api-key>
         <web-root>https://barsiar.github.io</web-root>
     </variables>
-
-    <build-profile instance="t">
-        <variables>
-            <algolia-id>ERUSDW4898</algolia-id>
-            <algolia-index>index</algolia-index>
-            <algolia-api-key>c8a4c35ccfcebbaa929dc7e6dba71a93</algolia-api-key>
-            <web-root>https://barsiar.github.io</web-root>
-        </variables>
-    </build-profile>
 
 </buildprofiles>
