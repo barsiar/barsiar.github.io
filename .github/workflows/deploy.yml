@@ -15,18 +15,18 @@ permissions:
 
 env:
   # Name of module and id separated by a slash
-  INSTANCE: Writerside/t
+  INSTANCE: Writerside/api
   # Replace HI with the ID of the instance in capital letters
-  ARTIFACT: webHelpT2-all.zip
+  ARTIFACT: webHelpAPI2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 2.1.1644-p4707
+  DOCKER_VERSION: 2.1.1649-p4740
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
-  ALGOLIA_ARTIFACT: algolia-indexes-T.zip
+  ALGOLIA_ARTIFACT: algolia-indexes-API.zip
   ALGOLIA_APP_NAME: ERUSDW4898
   ALGOLIA_INDEX_NAME: test
   ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
-  CONFIG_JSON_PRODUCT: T
+  CONFIG_JSON_PRODUCT: API
   CONFIG_JSON_VERSION: 1.0
 
 jobs:

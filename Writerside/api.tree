@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="api"
+                 name="Api"
+                 start-page="about-api.md">
+
+    <toc-element topic="about-api.md"/>
+    <toc-element topic="References-MD.md"/>
+    <toc-element topic="Inheritance-MD.md"/>
+    <toc-element topic="Model-Inheritance-MD.md"/>
+</instance-profile>
