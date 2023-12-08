@@ -9,4 +9,5 @@
     <images dir="images" web-path="images"/>
     <snippets dir="snippets"/>
     <instance src="api.tree"/>
+    <instance src="hi.tree" web-path="/hi/" version="1.0"/>
 </ihp>

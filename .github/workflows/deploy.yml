@@ -15,14 +15,14 @@ permissions:
 
 env:
   # Name of module and id separated by a slash
-  INSTANCE: Writerside/api
+  INSTANCE: Writerside/hi
   # Replace HI with the ID of the instance in capital letters
-  ARTIFACT: webHelpAPI2-all.zip
+  ARTIFACT: webHelpHI2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 2.1.1649-p4740
+  DOCKER_VERSION: 232.10275
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
-  ALGOLIA_ARTIFACT: algolia-indexes-API.zip
+  ALGOLIA_ARTIFACT: algolia-indexes-HI.zip
   ALGOLIA_APP_NAME: ERUSDW4898
   ALGOLIA_INDEX_NAME: test
   ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build Writerside docs using Docker
-        uses: JetBrains/writerside-github-action@v4
+        uses: JetBrains/writerside-github-action@v5
         with:
           instance: ${{ env.INSTANCE }}
           artifact: ${{ env.ARTIFACT }}
