@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <web-root>https://www.jetbrains.com/help</web-root>
+        <custom-favicons>globe.png</custom-favicons>
+    </variables>
+    <build-profile instance="hi">
+        <variables>
+            <custom-favicons>globe.png</custom-favicons>
+            <product-web-url>https://help.example.com</product-web-url>
+        </variables>
+    </build-profile>
+</buildprofiles>
