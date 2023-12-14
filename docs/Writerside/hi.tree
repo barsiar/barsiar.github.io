@@ -6,6 +6,7 @@
                  name="Help Instance"
                   start-page="Development-Board-Overview.md">
 
+    <toc-element topic="New-topic.topic"/>
     <toc-element topic="Development-Board-Overview.md"/>
     <toc-element topic="Empty-XML-Topic1.topic"/>
     <toc-element topic="Empty-XML-Topic.topic"/>
