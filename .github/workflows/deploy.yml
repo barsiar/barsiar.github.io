@@ -109,11 +109,11 @@ jobs:
         uses: actions/deploy-pages@v1
 
   publish-indexes:
-    # Requires the build job results
+    # Requires the build-job results
     needs: build
     runs-on: ubuntu-latest
     container:
-      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-3
+      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
 
     steps:
       - name: Download artifact
